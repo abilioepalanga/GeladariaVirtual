@@ -22,5 +22,17 @@ h1 {
 }
 /* Botão */
 .btn {
-    @apply px-6 py-3 text-lg font-bold text-slate-100 bg-fuchsia-600 rounded-lg shadow-lg duration-300 hover:bg-fuchsia-900;
+    @apply px-6 py-3 text-lg font-bold text-slate-100 bg-fuchsia-600 rounded-lg shadow-lg duration-300 hover:bg-fuchsia-900 hover:opacity-90;
+}
+
+/*.btn-secondary {
+    @apply px-6 py-3 text-lg font-bold text-fuchsia-600 bg-slate-100 rounded-lg shadow-lg duration-300 hover:bg-slate-900;
+}*/
+.btn span {
+    @apply font-bold;
+}
+
+.btn_outline {
+    @apply bg-transparent border-2 border-fuchsia-600 text-fuchsia-600;
+    @apply px-6 py-3 text-lg font-bold  rounded-lg shadow-lg duration-300 hover:bg-fuchsia-900 hover:opacity-90 hover:text-slate-100 hover:border-none;
 }
