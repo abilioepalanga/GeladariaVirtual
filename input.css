@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-pink-400 text-white font-Jost tracking-wider;
+    @apply bg-pink-400 text-slate-100 font-Jost tracking-wider;
 }
 
 .nav-link {
