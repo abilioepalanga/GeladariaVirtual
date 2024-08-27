@@ -595,6 +595,11 @@ video {
   background-color: rgb(251 146 60 / var(--tw-bg-opacity));
 }
 
+.bg-teal-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 78 74 / var(--tw-bg-opacity));
+}
+
 .font-Lobster{
   font-family: Lobster, sans-serif;
 }
@@ -635,5 +640,12 @@ video {
   .lg\:bg-yellow-400{
     --tw-bg-opacity: 1;
     background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 1180px){
+  .xl\:bg-stone-700{
+    --tw-bg-opacity: 1;
+    background-color: rgb(68 64 60 / var(--tw-bg-opacity));
   }
 }
