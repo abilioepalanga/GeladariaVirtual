@@ -8,7 +8,7 @@ body {
 }
 
 .nav-link {
-    @apply text-lg font-bold duration-300 hover:text-stone-700;
+    @apply text-lg font-bold duration-300 hover:text-fuchsia-950;
 }
 
 section {

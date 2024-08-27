@@ -686,26 +686,13 @@ video {
   overflow: hidden;
 }
 
-.bg-orange-500\/80{
-  background-color: rgb(249 115 22 / 0.8);
-}
-
-.bg-orange-600{
+.bg-pink-600{
   --tw-bg-opacity: 1;
-  background-color: rgb(234 88 12 / var(--tw-bg-opacity));
-}
-
-.bg-pink-500\/80{
-  background-color: rgb(236 72 153 / 0.8);
+  background-color: rgb(219 39 119 / var(--tw-bg-opacity));
 }
 
 .bg-pink-900\/80{
   background-color: rgb(131 24 67 / 0.8);
-}
-
-.bg-pink-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(219 39 119 / var(--tw-bg-opacity));
 }
 
 .font-Lobster{
@@ -720,6 +707,16 @@ video {
 .text-xl{
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-fuchsia-900{
+  --tw-text-opacity: 1;
+  color: rgb(112 26 117 / var(--tw-text-opacity));
+}
+
+.text-fuchsia-950{
+  --tw-text-opacity: 1;
+  color: rgb(74 4 78 / var(--tw-text-opacity));
 }
 
 .opacity-80{
@@ -752,7 +749,7 @@ body{
 
 .nav-link:hover{
   --tw-text-opacity: 1;
-  color: rgb(68 64 60 / var(--tw-text-opacity));
+  color: rgb(74 4 78 / var(--tw-text-opacity));
 }
 
 section{
@@ -800,6 +797,16 @@ h1{
   .sm\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
+  }
+
+  .sm\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 

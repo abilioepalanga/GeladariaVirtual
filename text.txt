@@ -1,9 +1,9 @@
 ~~~~~~~~~~~~~~~ Title  ~~~~~~~~~~~~~~~
-Plant Website || TailwindCSS 
+Geladaria TB
 
 ~~~~~~~~~~~~~~~ Navbar ~~~~~~~~~~~~~~~
 IndorePlants.
-Home | About | Popular | Review
+Home | Acerca | Cardápios | Avaliações
 
 ~~~~~~~~~~~~~~~ Hero Section ~~~~~~~~~~~~~~~
 <span class="text-yellow-500">Plants</span> make a <br>
