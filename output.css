@@ -940,6 +940,10 @@ body{
     display: flex;
   }
 
+  .lg\:hidden{
+    display: none;
+  }
+
   .lg\:min-h-fit{
     min-height: -moz-fit-content;
     min-height: fit-content;
