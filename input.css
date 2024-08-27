@@ -4,9 +4,17 @@
 @tailwind utilities;
 
 body {
-    @apply bg-orange-400 text-white font-Jost tracking-wider;
+    @apply bg-pink-400 text-white font-Jost tracking-wider;
 }
 
 .nav-link {
     @apply text-lg font-bold duration-300 hover:text-stone-700;
+}
+
+section {
+    @apply py-20 md:py-28;
+}
+
+h1 {
+    @apply text-3xl md:text-4xl xl:text-5xl font-bold;
 }
