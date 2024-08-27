@@ -600,6 +600,10 @@ video {
   background-color: rgb(19 78 74 / var(--tw-bg-opacity));
 }
 
+.text-center{
+  text-align: center;
+}
+
 .font-Lobster{
   font-family: Lobster, sans-serif;
 }
