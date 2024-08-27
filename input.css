@@ -4,5 +4,5 @@
 @tailwind utilities;
 
 body {
-    @apply bg-orange-870 text-white font-Jost tracking-wider;
+    @apply bg-orange-400 text-white font-Jost tracking-wider;
 }
