@@ -678,8 +678,22 @@ video {
   justify-content: space-between;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
+}
+
 .gap-8{
   gap: 2rem;
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden{
@@ -726,6 +740,8 @@ video {
   transition-duration: 300ms;
 }
 
+/* Corpo */
+
 body{
   --tw-bg-opacity: 1;
   background-color: rgb(244 114 182 / var(--tw-bg-opacity));
@@ -734,6 +750,8 @@ body{
   --tw-text-opacity: 1;
   color: rgb(241 245 249 / var(--tw-text-opacity));
 }
+
+/* Header */
 
 .nav-link{
   font-size: 1.125rem;
@@ -747,6 +765,8 @@ body{
   color: rgb(74 4 78 / var(--tw-text-opacity));
 }
 
+/* Footer */
+
 section{
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -758,6 +778,8 @@ section{
     padding-bottom: 7rem;
   }
 }
+
+/* TExto */
 
 h1{
   font-size: 1.875rem;
@@ -787,6 +809,10 @@ h1{
 @media (min-width: 340px){
   .sm\:h-20{
     height: 5rem;
+  }
+
+  .sm\:flex-row{
+    flex-direction: row;
   }
 
   .sm\:text-3xl{

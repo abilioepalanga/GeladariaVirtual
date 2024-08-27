@@ -4,18 +4,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Corpo */
 body {
     @apply bg-pink-400 text-slate-100 font-Jost tracking-wider;
 }
-
+/* Header */
 .nav-link {
     @apply text-lg font-bold duration-300 hover:text-fuchsia-950;
 }
-
+/* Footer */
 section {
     @apply py-20 md:py-28;
 }
-
+/* TExto */
 h1 {
     @apply text-3xl md:text-4xl xl:text-5xl font-bold;
 }
