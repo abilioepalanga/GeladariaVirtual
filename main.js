@@ -5,6 +5,14 @@ const navMenu = document.getElementById("nav-menu"),
 
 hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("left-[0]");
+    hamburger.classList.toggle("ri-close-large-line");
+});
+
+navLink.forEach((n) => {
+    n.addEventListener("click", () => {
+        navMenu.classList.remove("left-[0]");
+        hamburger.classList.remove("ri-close-large-line");
+    });
 });
 /*-------Show Scroll Up_exibir apos rolar a página--*/
 
