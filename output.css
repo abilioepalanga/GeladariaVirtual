@@ -642,12 +642,20 @@ video {
   right: 0px;
 }
 
+.left-5{
+  left: 1.25rem;
+}
+
 .z-50{
   z-index: 50;
 }
 
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-16{
@@ -983,6 +991,10 @@ h1{
 
   .lg\:w-auto{
     width: auto;
+  }
+
+  .lg\:w-1\/2{
+    width: 50%;
   }
 
   .lg\:flex-row{
