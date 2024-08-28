@@ -78,8 +78,27 @@
         </header>
         <main>
             <!---------------------Home_ página inicial do site--------------------->
-            <section id="home">
+            <section id="home" class="relative">
                 <div class="container">
+                    <!----blob 1_ Iluminação de fundo---->
+                    <div class="w-64 h-64 bg-pink-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+
+                    </div> 
+                     <!----blob 2_ Iluminação de fundo---->
+                     <div class="w-64 h-64 bg-pink-700 rounded-full blur-3xl -z-10 opacity-40 absolute right-0 bottom-0">
+
+                     </div> 
+
+                    <!----blob 2_ imagem de fundo ___Imagem de fundo grande
+                    <div class="relative w-64 h-64 bg-pink-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-[70%] transform -translate-x-1/2 -translate-y-1/2">
+
+                         <div class="absolute inset-0 overflow-hidden rounded-full">
+                            <img src="assets/img/card-4.png" alt="" class="w-full h-full object-cover clip-half-image">
+                         </div>
+                    </div>---->
+
+                    
+
                     <div class="flex flex-col items-center gap-5 lg:flex-row">
                         <!-------- content_ conteúdo da página inicial-->
                         <div class="w-full space-y-5 lg:w-1/2">
@@ -119,7 +138,7 @@
                                 >
                             </p>
                             <div class="flex items-center gap-5 text-lg lg:pt-0">
-                                <i class="ri-linkedin-fill text-fuchsia-600 hover:text-white duration-300 cursor-pointer"></i>
+                               <i class="ri-linkedin-fill text-fuchsia-600 hover:text-white duration-300 cursor-pointer"></i> 
                                 <i class="ri-github-fill text-fuchsia-600 hover:text-white duration-300 cursor-pointer"></i>
                                 <i class="ri-whatsapp-fill text-fuchsia-600 hover:text-white duration-300 cursor-pointer"></i>
                                 <i class="ri-discord-fill text-fuchsia-600 hover:text-white duration-300 cursor-pointer"></i>
@@ -128,16 +147,18 @@
                         <!-------- image_ imagem da página inicial-->
                         <div class="w-full relative lg:w-1/2">
                             <img src="assets/img/home.png" alt="Gelado" />
-                            <!-------- leaf_ imagem de folha-->
-                            <div class="absolute -top-10 right-0 opacity-60">
-                                <i class="material-icons text-6xl text-fuchsia-600">icecream</i>
+                            <!-------- leaf_ imagem do Icon Ice Cream-->
+                            <div class="absolute -top-10 right-0 opacity-60 animate-movingY xl:top-5">
+                            </br>
+                                <!--------  leaf_ imagem do Icon Local Cafe Remix-->
+                                    <i class="ri-drinks-line text-6xl text-fuchsia-600"></i>
                             </div>
-                            <!-------- leaf_ imagem de folha-->
-                            <div class="absolute bottom-0 left-0 opacity-60">
-                                <i class="material-icons text-6xl text-fuchsia-600">cake</i>
+                            <!--------  leaf_ imagem do Icon Cake-->
+                            <div class="absolute bottom-0 left-0 opacity-60 xl:bottom-12 animate-rotating">
+                                <i class="ri-cake-3-line text-6xl text-fuchsia-600"></i>
                             </div>
-                            <!-------- leaf_ imagem de folha-->
-                            <div class="hidden absolute -top-10 left-5 opacity-60">
+                            <!--------  leaf_ imagem do Icon Fastfood-->
+                            <div class="hidden absolute -top-8 -left-5 opacity-60 lg:block animate-scalingUp">
                                 <i class="material-icons text-6xl text-fuchsia-600">fastfood</i>
                             </div>
                         </div>
