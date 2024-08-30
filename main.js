@@ -16,15 +16,6 @@ navLink.forEach((link) => {
 });
 
 /*-------Show Scroll Up_exibir apos rolar a página--+++++++*/
-const scrollUp = document.getElementById("scroll-up");
-
-window.addEventListener("scroll", () => {
-    if (window.scrollY >= 560) {
-        scrollUp.classList.add("show-scroll");
-    } else {
-        scrollUp.classList.remove("show-scroll");
-    }
-});
 
 /*-------Change Background Header_alterar o fundo header---->
 const header = document.getElementById("header");
@@ -55,19 +46,6 @@ const swiper = new Swiper(".swiper-container", {
 //Change Background Header
 
 /*-------Swiper____criar sliders------------*/
-const swiper = new Swiper(".swiper-container", {
-    spaceBetween: 30,
-    centeredSlides: true,
-    autoplay: {
-        delay: 7500,
-        disableOnInteraction: false,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
-    loop: true,
-});
 
 /*------Scrool Sections Active Link_link ativo ao rolar a página--*/
 const sections = document.querySelectorAll("section[id]");
@@ -89,6 +67,27 @@ function scrollActive() {
     });
 }
 window.addEventListener("scroll", scrollActive);
+
+/*---Outra maneira do código acima---*/
+const activeLink = () => {
+    const sections = document.querySelectorAll("section");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    let current = "home";
+    
+    sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+       
+        if (this.scrollY >= sectionTop - 60) {
+            current = section.getAttribute("id");
+        }
+    })
+    navLinks.forEach((link) => {
+        link.classList.remove("active");
+        if (link.href.includes(current)) {
+            link.classList.add("active-link");
+        }
+    });
 
 /*------Scroll Reveall Animation_animação ao rolar a página--*/
 const sr = ScrollReveal({

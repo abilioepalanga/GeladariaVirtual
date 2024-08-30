@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    @apply overflow-hidden scroll-smooth;
+}
+
 /* Corpo */
 body {
     @apply bg-pink-400 text-slate-100 font-Jost tracking-wider;
@@ -35,4 +39,8 @@ h1 {
 .btn_outline {
     @apply bg-transparent border-2 border-fuchsia-600 text-fuchsia-600;
     @apply px-6 py-3 text-lg font-bold  rounded-lg shadow-lg duration-300 hover:bg-fuchsia-900 hover:opacity-90 hover:text-slate-100 hover:border-none;
+}
+/* active */
+.active {
+    @apply text-fuchsia-950;
 }
