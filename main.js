@@ -47,7 +47,7 @@ const swiper = new Swiper(".swiper-container", {
 
 /*-------Swiper____criar sliders------------*/
 
-/*------Scrool Sections Active Link_link ativo ao rolar a página--*/
+/*------Scrool Sections Active Link_link ativo ao rolar a página--
 const sections = document.querySelectorAll("section[id]");
 function scrollActive() {
     const scrollY = window.pageYOffset;
@@ -66,7 +66,7 @@ function scrollActive() {
         }
     });
 }
-window.addEventListener("scroll", scrollActive);
+window.addEventListener("scroll", scrollActive); */
 
 /*---Outra maneira do código acima---*/
 const activeLink = () => {
@@ -74,20 +74,21 @@ const activeLink = () => {
     const navLinks = document.querySelectorAll(".nav-link");
 
     let current = "home";
-    
+
     sections.forEach((section) => {
         const sectionTop = section.offsetTop;
-       
+
         if (this.scrollY >= sectionTop - 60) {
             current = section.getAttribute("id");
         }
-    })
+    });
     navLinks.forEach((link) => {
         link.classList.remove("active");
         if (link.href.includes(current)) {
             link.classList.add("active-link");
         }
     });
+};
 
 /*------Scroll Reveall Animation_animação ao rolar a página--*/
 const sr = ScrollReveal({
