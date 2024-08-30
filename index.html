@@ -167,7 +167,10 @@
                         </div>
                         <!-------- image_ imagem da página inicial-->
                         <div class="w-full relative lg:w-1/2">
-                            <img src="assets/img/card-4.png" alt="Gelado" />
+                            <img
+                                src="assets/img/outros/teste1-Copy.png"
+                                alt="Gelado"
+                            />
                             <!-------- leaf_ imagem do Icon Ice Cream-->
                             <div
                                 class="absolute -top-10 right-0 opacity-60 animate-movingY xl:top-5"
@@ -626,32 +629,41 @@
                         <div
                             class="absolute top-3/4 left-0 w-3 h-6 bg-amber-100 border-r-4 border-dashed border-gray-300"
                         ></div>
+                        <!-- Fim de Buracos na lateral da folha -->
 
                         <!-- Conteúdo da folha -->
                         <div class="flex flex-col items-center gap-5">
-                            <h2 class="text-3xl font-bold mb-3 relative">
-                                Sobre a Geladaria TB
-                                <span
-                                    class="absolute bottom-0 left-0 w-full h-1 bg-red-900 mt-1 opacity-80 rounded-t-lg"
-                                ></span>
-                            </h2>
-                            <p class="text-center">
-                                A Geladaria TB é uma empresa que se dedica à
-                                produção e venda de gelados artesanais, feitos
-                                com ingredientes frescos e de qualidade. Nossos
-                                gelados são perfeitos para adoçar o seu dia em
-                                qualquer ocasião!
-                            </p>
+                            <!-- Titulo principal e seu texto -->
+                            <div>
+                                <h2
+                                    class="text-3xl text-center font-bold mb-3 relative"
+                                >
+                                    Sobre a Geladaria TB
+                                    <span
+                                        class="absolute bottom-0 left-0 w-full h-1 bg-red-900 mt-1 opacity-80 rounded-t-lg"
+                                    ></span>
+                                </h2>
+                                <p class="text-center">
+                                    A Geladaria TB é uma empresa que se dedica à
+                                    produção e venda de gelados artesanais,
+                                    feitos com ingredientes frescos e de
+                                    qualidade. Nossos gelados são perfeitos para
+                                    adoçar o seu dia em qualquer ocasião!
+                                </p>
+                            </div>
+
                             <div
                                 class="flex flex-col lg:flex-row items-center gap-10 mt-5"
                             >
+                                <!-- Shop Imagem da esquerda -->
                                 <div class="lg:w-1/2 w-full">
                                     <img
                                         src="assets/img/outros/shop.png"
                                         alt="Sobre a empresa"
-                                        class="w-full rounded-lg shadow-lg"
+                                        class="w-full rounded-lg shadow-"
                                     />
                                 </div>
+                                <!-- Missão, Visão e Valores -->
                                 <div class="lg:w-1/2 w-full">
                                     <h3 class="text-2xl font-bold mb-3">
                                         Missão
@@ -671,15 +683,17 @@
                                         nossos produtos e pelo atendimento
                                         diferenciado aos nossos clientes.
                                     </p>
-                                    <h3 class="text-2xl font-bold mb-3">
-                                        Valores
-                                    </h3>
-                                    <p>
-                                        Nossos valores são a qualidade, a
-                                        inovação, a satisfação do cliente e o
-                                        compromisso com a excelência em tudo o
-                                        que fazemos.
-                                    </p>
+                                    <div>
+                                        <h3 class="text-2xl font-bold mb-3">
+                                            Valores
+                                        </h3>
+                                        <p>
+                                            Nossos valores são a qualidade, a
+                                            inovação, a satisfação do cliente e
+                                            o compromisso com a excelência em
+                                            tudo o que fazemos.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -690,7 +704,110 @@
             <!---------------------Menu_ cardápio--------------------->
             <section id="menu"></section>
             <!---------------------Reviews_ avaliações--------------------->
-            <section id="review"></section>
+            <section id="review">
+                <div class="container mx-auto px-6 lg:px-20 py-20">
+                    <h2 class="text-3xl font-bold text-center mb-10">
+                        Avaliações dos nossos clientes
+                    </h2>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10"
+                    >
+                        <!-- Card 1 -->
+                        <div
+                            class="bg-white shadow-xl rounded-lg overflow-hidden transform hover:scale-105 duration-300"
+                        >
+                            <div class="p-6">
+                                <div class="flex items-center">
+                                    <img
+                                        src="assets/img/review/review-7.jpg"
+                                        alt="Avatar"
+                                        class="w-12 h-12 rounded-full"
+                                    />
+                                    <div class="ml-4">
+                                        <h3
+                                            class="font-bold text-lg text-pink-600"
+                                        >
+                                            Maria Silva
+                                        </h3>
+                                        <span class="text-gray-600 text-sm"
+                                            >Cliente</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <p class="text-gray-600 mt-4">
+                                    "Adorei os gelados da Geladaria TB! São
+                                    deliciosos e muito refrescantes. Recomendo a
+                                    todos!"
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2 -->
+                        <div
+                            class="bg-white shadow-xl rounded-lg overflow-hidden transform hover:scale-105 duration-300"
+                        >
+                            <div class="p-6">
+                                <div class="flex items -center">
+                                    <img
+                                        src="assets/img/review/review-3.jpeg"
+                                        alt="Avatar"
+                                        class="w-12 h-12 rounded-full"
+                                    />
+                                    <div class="ml-4">
+                                        <h3
+                                            class="font-bold text-lg text-pink-600"
+                                        >
+                                            João Santos
+                                        </h3>
+                                        <span class="text-gray-600 text-sm"
+                                            >Cliente</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <p class="text-gray-600 mt-4">
+                                    "Os gelados da Geladaria TB são simplesmente
+                                    maravilhosos! São feitos com ingredientes
+                                    frescos e de qualidade. Recomendo a todos!"
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3 -->
+                        <div
+                            class="bg-white shadow-xl rounded-lg overflow-hidden transform hover:scale-105 duration-300"
+                        >
+                            <div class="p-6">
+                                <div class="flex items-center">
+                                    <img
+                                        src="assets/img/review/review-5.jpg"
+                                        alt="Avatar"
+                                        class="w-12 h-12 rounded-full"
+                                    />
+                                    <div class="ml-4">
+                                        <h3
+                                            class="font-bold text-lg text-pink-600"
+                                        >
+                                            Ana Oliveira
+                                        </h3>
+                                        <span class="text-gray-600 text-sm"
+                                            >Cliente</span
+                                        >
+                                    </div>
+                                </div>
+
+                                <p class="text-gray-600 mt-4">
+                                    "Me apaixonei com os gelados da Geladaria TB
+                                    desde a 1ª vez que saboriei! E honestamente,
+                                    não há algum igual. Recomendo seriamente a
+                                    todos!"
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <!---------------------Footer_ rodapé do site--------------------->
         <footer>
