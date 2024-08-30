@@ -93,14 +93,11 @@ const activeLink = () => {
 /*------Scroll Reveall Animation_animação ao rolar a página--*/
 const sr = ScrollReveal({
     origin: "top",
-    distance: "30px",
-    duration: 2000,
+    distance: "60px",
+    duration: 2500,
     reset: true,
+    delay: 300,
 });
 
-sr.reveal(
-    `.home-content, .about-content, .services-content, .menu-content, .app-content, .contact-content`,
-    {
-        interval: 200,
-    }
-);
+sr.reveal(`home_data`);
+sr.reveal(`home_image`, { delay: 500, scale: 0.5 });
